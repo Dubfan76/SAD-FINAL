@@ -1,5 +1,6 @@
 # SAD-FINAL
 J Jeong, Nick Collins, Joseph Abousharkh, Joshua Castaneda - Mr. Clark Coding Class Final Project
+
 CREATE TABLE Religions (
 	Religion SMALLINT NOT NULL,
 	Religion_id SMALLINT NOT NULL,
@@ -23,9 +24,6 @@ VALUES (4, ‘Hinduism’ NOW())
 
 
 
-
-
-
 CREATE TABLE Region (
 	Religion SMALLINT NOT NULL,
 	Religion_id SMALLINT NOT NULL,
@@ -35,23 +33,20 @@ CREATE TABLE Region (
 );
 
 
+INSERT into Region(Religion_id, Region, last_update)
+VALUES (1, 'Europe and other various regions' NOW());
 
 
-INSERT into Regions(Religion_id, Region)
+INSERT into Region(Religion_id, Region, last_update)
 VALUES  (2, 'Middle East', NOW());
 
 
-INSERT into Regions(Religion, Religion_id, Region)
-VALUES (1, 'Europe and other various regions' ()); NOW
-
-
-INSERT into Regions(Religion, Religion_id, Region)
+INSERT into Region(Religion_id, Region, last_update)
 VALUES (3, 'The Levant’, NOW());
 
 
-INSERT into Regions(Religion, Religion_id, Region)
+INSERT into Region(Religion_id, Region, last_update)
 VALUES (4, ‘India and Southeast Asia’, NOW());
-
 
 
 
@@ -64,23 +59,19 @@ CREATE TABLE Principles (
 
 
 );
-INSERT into Principles(Religion, Religion_id, Principles)
+INSERT into Principles(Religion_id, Principles, last_update)
 VALUES (2, ‘Quran’, NOW())
 
 
-INSERT into Principles(Religion, Religion_id, Principles)
+INSERT into Principles(Religion_id, Principles, last_update)
 VALUES (1, ‘Bible’, NOW())
  
-INSERT into Principles(Religion, Religion_id, Principles)
+INSERT into Principles(Religion_id, Principles, last_update)
 VALUES (3, ‘Torah’, NOW())
 
 
-INSERT into Principles(Religion, Religion_id, Principles)
+INSERT into Principles(Religion_id, Principles, last_update)
 VALUES (4, ‘Vedas’ NOW())
-
-
-
-
 
 
 	
@@ -95,32 +86,20 @@ CREATE TABLE Origin (
 );
 
 
-INSERT into Origin(Religion, Religion_id, Origin)
+INSERT into Origin(Religion_id, Origin, last_update)
 Values (1, ‘Jerusalem’, NOW());
 
 
-INSERT into Origin(Religion, Religion_id, Origin)
+INSERT into Origin(Religion_id, Origin, last_update)
 VALUES (2, ‘Mecca’, NOW());
 
 
-INSERT into Origin(Religion, Religion_id, Origin)
+INSERT into Origin(Religion_id, Origin, last_update)
 VALUES (3, ‘Jerusalem’ NOW(();
 
 
-INSERT into Origin(Religion, Religion_id, Origin)
-VALUES (‘Jerusalem’, NOW());
-
-
-INSERT into Origin(Religion, Religion_id, Origin)
-VALUES (‘Mecca’, NOW());
-
-
-
-
-INSERT into Origin(Religion, Religion_id, Origin)
-VALUES (‘India’, NOW());
-
-
+INSERT into Origin(Religion_id, Origin, last_update)
+VALUES (4, ‘India’, NOW());
 
 
 
@@ -134,22 +113,17 @@ Religion SMALLINT NOT NULL,
 
 );
 
+Insert into Deities(Religion_id, Deities, last_update)
+Values (1, ‘God’, NOW());
 
 
-
-Insert into Deities(Religion, Religion_id, Deities)
-Values (‘God’, NOW());
-
-
-Insert into Deities(Religion, Religion_id, Deities)
-VALUES (‘Allah’, NOW());
+Insert into Deities(Religion_id, Deities, last_update)
+VALUES (2,‘Allah’, NOW());
 
 
-Insert into Deities(Religion, Religion_id, Deities)
-VALUES (‘YHWH’, NOW());
+Insert into Deities(Religion_id, Deities, last_update)
+VALUES (3, ‘YHWH’, NOW());
 
 
-Insert into Deities(Religion, Religion_id, Deities)
-VALUES (‘Vishnu and Others’, NOW());
-
-
+Insert into Deities(Religion_id, Deities, last_update)
+VALUES (4, ‘Vishnu and Others’, NOW());
