@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA099A651DF9F0CC0005CC28 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA099A641DF9F0CC0005CC28 /* PostViewController.swift */; };
+		BA099A671DF9F1050005CC28 /* GetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA099A661DF9F1050005CC28 /* GetViewController.swift */; };
+		BA4B13331DF75A53002BA902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B13321DF75A53002BA902 /* AppDelegate.swift */; };
+		BA4B13351DF75A53002BA902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B13341DF75A53002BA902 /* ViewController.swift */; };
+		BA4B13381DF75A53002BA902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4B13361DF75A53002BA902 /* Main.storyboard */; };
+		BA4B133A1DF75A53002BA902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4B13391DF75A53002BA902 /* Assets.xcassets */; };
+		BA4B133D1DF75A53002BA902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4B133B1DF75A53002BA902 /* LaunchScreen.storyboard */; };
+		BA4B134D1DF75BDD002BA902 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4B134C1DF75BDD002BA902 /* Alamofire.framework */; };
+		BA4B134F1DF75BF7002BA902 /* Alamofire.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = BA4B134C1DF75BDD002BA902 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA4B13511DF75C9C002BA902 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4B13501DF75C9C002BA902 /* SwiftyJSON.framework */; };
+		BA4B13521DF75CAD002BA902 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4B13501DF75C9C002BA902 /* SwiftyJSON.framework */; };
+		BA4B13531DF75CAD002BA902 /* SwiftyJSON.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = BA4B13501DF75C9C002BA902 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA4B134E1DF75BE5002BA902 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA4B13531DF75CAD002BA902 /* SwiftyJSON.framework in Copy Files */,
+				BA4B134F1DF75BF7002BA902 /* Alamofire.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BA099A641DF9F0CC0005CC28 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		BA099A661DF9F1050005CC28 /* GetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetViewController.swift; sourceTree = "<group>"; };
+		BA4B132F1DF75A53002BA902 /* Religions Database.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Religions Database.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4B13321DF75A53002BA902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA4B13341DF75A53002BA902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA4B13371DF75A53002BA902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA4B13391DF75A53002BA902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4B133C1DF75A53002BA902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA4B133E1DF75A53002BA902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4B13481DF75B8C002BA902 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Downloads/Alamofire.framework; sourceTree = "<group>"; };
+		BA4B134C1DF75BDD002BA902 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		BA4B13501DF75C9C002BA902 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4B132C1DF75A52002BA902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4B13511DF75C9C002BA902 /* SwiftyJSON.framework in Frameworks */,
+				BA4B134D1DF75BDD002BA902 /* Alamofire.framework in Frameworks */,
+				BA4B13521DF75CAD002BA902 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA4B13261DF75A52002BA902 = {
+			isa = PBXGroup;
+			children = (
+				BA4B13311DF75A53002BA902 /* Religions Database */,
+				BA4B13301DF75A53002BA902 /* Products */,
+				BA4B13471DF75B8C002BA902 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4B13301DF75A53002BA902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B132F1DF75A53002BA902 /* Religions Database.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4B13311DF75A53002BA902 /* Religions Database */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B13501DF75C9C002BA902 /* SwiftyJSON.framework */,
+				BA4B134C1DF75BDD002BA902 /* Alamofire.framework */,
+				BA4B13321DF75A53002BA902 /* AppDelegate.swift */,
+				BA4B13341DF75A53002BA902 /* ViewController.swift */,
+				BA4B13361DF75A53002BA902 /* Main.storyboard */,
+				BA099A661DF9F1050005CC28 /* GetViewController.swift */,
+				BA099A641DF9F0CC0005CC28 /* PostViewController.swift */,
+				BA4B13391DF75A53002BA902 /* Assets.xcassets */,
+				BA4B133B1DF75A53002BA902 /* LaunchScreen.storyboard */,
+				BA4B133E1DF75A53002BA902 /* Info.plist */,
+			);
+			path = "Religions Database";
+			sourceTree = "<group>";
+		};
+		BA4B13471DF75B8C002BA902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B13481DF75B8C002BA902 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4B132E1DF75A52002BA902 /* Religions Database */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA4B13411DF75A53002BA902 /* Build configuration list for PBXNativeTarget "Religions Database" */;
+			buildPhases = (
+				BA4B132B1DF75A52002BA902 /* Sources */,
+				BA4B132C1DF75A52002BA902 /* Frameworks */,
+				BA4B132D1DF75A52002BA902 /* Resources */,
+				BA4B134E1DF75BE5002BA902 /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Religions Database";
+			productName = "Religions Database";
+			productReference = BA4B132F1DF75A53002BA902 /* Religions Database.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4B13271DF75A52002BA902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "J Jeong";
+				TargetAttributes = {
+					BA4B132E1DF75A52002BA902 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA4B132A1DF75A52002BA902 /* Build configuration list for PBXProject "Religions Database" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4B13261DF75A52002BA902;
+			productRefGroup = BA4B13301DF75A53002BA902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4B132E1DF75A52002BA902 /* Religions Database */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4B132D1DF75A52002BA902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4B133D1DF75A53002BA902 /* LaunchScreen.storyboard in Resources */,
+				BA4B133A1DF75A53002BA902 /* Assets.xcassets in Resources */,
+				BA4B13381DF75A53002BA902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4B132B1DF75A52002BA902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA099A651DF9F0CC0005CC28 /* PostViewController.swift in Sources */,
+				BA099A671DF9F1050005CC28 /* GetViewController.swift in Sources */,
+				BA4B13351DF75A53002BA902 /* ViewController.swift in Sources */,
+				BA4B13331DF75A53002BA902 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA4B13361DF75A53002BA902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4B13371DF75A53002BA902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA4B133B1DF75A53002BA902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4B133C1DF75A53002BA902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA4B133F1DF75A53002BA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA4B13401DF75A53002BA902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA4B13421DF75A53002BA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Religions\\ Database",
+					"$(PROJECT_DIR)/Religions\\ Database",
+					"$(PROJECT_DIR)/Religions\\ Database",
+				);
+				INFOPLIST_FILE = "Religions Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockhursths.amdg.Religions-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA4B13431DF75A53002BA902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Religions\\ Database",
+					"$(PROJECT_DIR)/Religions\\ Database",
+					"$(PROJECT_DIR)/Religions\\ Database",
+				);
+				INFOPLIST_FILE = "Religions Database/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.rockhursths.amdg.Religions-Database";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4B132A1DF75A52002BA902 /* Build configuration list for PBXProject "Religions Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4B133F1DF75A53002BA902 /* Debug */,
+				BA4B13401DF75A53002BA902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA4B13411DF75A53002BA902 /* Build configuration list for PBXNativeTarget "Religions Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4B13421DF75A53002BA902 /* Debug */,
+				BA4B13431DF75A53002BA902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4B13271DF75A52002BA902 /* Project object */;
+}
